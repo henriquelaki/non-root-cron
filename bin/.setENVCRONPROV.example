@@ -1,0 +1,20 @@
+ROOTDIR=../
+BINDIR=$ROOTDIR/bin
+ETCDIR=$ROOTDIR/etc
+
+. $BINDIR/common.sh
+. $BINDIR/prod_cron_add.sh
+. $BINDIR/prod_cron_del.sh
+. $BINDIR/prod_cron_list.sh
+
+prod_cron_list(){
+    lista_scripts
+}
+
+
+prod_cron_del(){
+    cron_del "$@"
+}
+prod_cron_add(){
+    cron_add "$@"
+}
