@@ -25,4 +25,4 @@ i.e.:
 ```
 cron_add /home/myuser/send_report.sh 23:45
 ```
-It will run script `/home/myuser/send_report.sh` as 23:45 (11:45pm) every day
+It will run script `/home/myuser/send_report.sh` at 23:45 (11:45pm) every day
