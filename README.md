@@ -26,3 +26,6 @@ i.e.:
 cron_add /home/myuser/send_report.sh 23:45
 ```
 It will run script `/home/myuser/send_report.sh` at 23:45 (11:45pm) every day
+
+## Notes
+These scripts were all written based on Portuguese language, please feel free to change function names and comments to english 
