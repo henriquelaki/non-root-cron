@@ -45,7 +45,7 @@ Remova scripts do agendamento com o comando prod_cron_del <id>
 ```
 Where "1-)" is the scrip ID, used to remove it from schedule list
 
-##Removing job/script schedule
+## Removing a script/job schedule
 To remove a script from you scheduled jobs, just run
 ```
 prod_cron_del <ID>
