@@ -33,13 +33,24 @@ To list all scheduled scripts, just run
 prod_cron_list
 ```
 It will show you an output like this:
->===============================================================================================
->                                  CRONTAB
->===============================================================================================
->id  	Script		Horario
->1-)	/home/restartfull.sh		23:00
->===============================================================================================
->Remova scripts do agendamento com o comando prod_cron_del <id>
->===============================================================================================
+```
+===============================================================================================
+                                  CRONTAB
+===============================================================================================
+id  	Script		Horario
+1-)	/home/restartfull.sh		23:00
+===============================================================================================
+Remova scripts do agendamento com o comando prod_cron_del <id>
+===============================================================================================
+```
+Where "1-)" is the scrip ID, used to remove it from schedule list
+
+##Removing job/script schedule
+To remove a script from you scheduled jobs, just run
+```
+prod_cron_del <ID>
+```
+Where <ID> is the script id shown on prod_cron_list command output
+  
 ## Notes
 These scripts were all written based on Portuguese language, please feel free to change function names and comments to english 
