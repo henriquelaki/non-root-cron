@@ -23,9 +23,23 @@ cron_add <your script full path> <schedule time in format HH24:MI>
 ```
 i.e.:
 ```
-cron_add /home/myuser/send_report.sh 23:45
+prod_cron_add /home/myuser/send_report.sh 23:45
 ```
 It will run script `/home/myuser/send_report.sh` at 23:45 (11:45pm) every day
 
+## Listing Scheduled scripts/jobs
+To list all scheduled scripts, just run 
+```
+prod_cron_list
+```
+It will show you an output like this:
+>===============================================================================================
+>                                  CRONTAB
+>===============================================================================================
+>id  	Script		Horario
+>1-)	/home/restartfull.sh		23:00
+>===============================================================================================
+>Remova scripts do agendamento com o comando prod_cron_del <id>
+>===============================================================================================
 ## Notes
 These scripts were all written based on Portuguese language, please feel free to change function names and comments to english 
