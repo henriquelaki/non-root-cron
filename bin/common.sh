@@ -5,7 +5,7 @@
 # e-mail: henrique.laki.ext@nextel.coom.br
 # phone: (11) 94783-0205
 # Data: 15/07/202
-# Descrição: Funções comuns aos scrips
+# Description: Funções comuns aos scrips
 #
 ###########################################################################
 ROOTDIR=../
